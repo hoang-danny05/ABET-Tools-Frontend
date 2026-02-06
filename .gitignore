@@ -1,0 +1,8 @@
+.ssh
+.env
+__pycache__
+*.pyc
+
+## php composer files
+composer.phar
+vendor

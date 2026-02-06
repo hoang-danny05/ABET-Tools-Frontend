@@ -1,0 +1,1505 @@
+   
+    Computing Accreditation Commission
+      CRITERIA FOR ACCREDITING
+ COMPUTING PROGRAMS
+ Effective for Reviews during the 202
+5-202
+6 Accreditation Cycle
+  Incorporates all changes approved by the ABET Board of Delegates 
+Computing Area Delegation as of 
+October 25
+, 202
+4   
+ ABET
+ 415 N. Charles Street 
+Baltimore, MD 21201
+  Telephone: 410
+-347
+-7700 
+Email: 
+accreditation@abet.org
+ Website:
+ www.abet.org
+  
+  
+     
+   
+          
+   
+   
+  
+     
+   
+     
+     Copyright © 202
+4 by ABET
+ Printed in the United States of America.
+ All rights reserved. No part of these criteria may be reproduced in any form or by any means without written permission from 
+the publisher. 
+Published
+ by:
+ ABET
+ 415 N. Charles Street 
+Baltimore, MD 21201
+  Requests for further information about ABET, its accreditation process, or other activities may be addressed to the 
+Senior 
+Director, 
+Accreditation Operations, ABET, 415 N. Charles Street, Baltimore, MD 21201 or to 
+accreditation@abet.org.
+ 
+2025
+-2026 Criteria for Accrediting Computing Programs
+  1     Table of Contents
+ Table of Contents
+ ................................
+................................
+................................
+................................
+................................
+........
+1 Criteria for Accrediting Computing Programs
+ ................................
+................................
+................................
+.......
+ 2 Definitions
+ ................................
+................................
+................................
+................................
+................................
+..........................
+ 2 I. GENERAL CRITERIA
+ ................................
+................................
+................................
+................................
+................................
+...
+ 4 Criterion 1. Students
+ ................................
+................................
+................................
+................................
+................................
+. 4 Criterion 2. Program Educational Objectives
+ ................................
+................................
+................................
+.....
+ 4 Criterion 3. Student Outcomes
+ ................................
+................................
+................................
+................................
+.......
+ 4 Criterion 4. Continuous Improvement
+................................
+................................
+................................
+.......................
+ 4 Criterion 5. Curriculum
+ ................................
+................................
+................................
+................................
+............................
+ 5 Criterion 6. Faculty
+................................
+................................
+................................
+................................
+................................
+.....
+ 5 Criterion 7. Facilities
+................................
+................................
+................................
+................................
+................................
+..
+ 5 Criterion 8. Institutional Support
+................................
+................................
+................................
+................................
+...
+ 6 II. GENERAL CRITERIA FOR ASSOCIATE LEVEL PROGRAMS
+................................
+................................
+..
+7 III. GENERAL CRITERIA FOR MASTER™S LEVEL PROGRAMS
+ ................................
+................................
+. 10 IV. PROGRAM CRITERIA
+ ................................
+................................
+................................
+................................
+...........................
+15 Computer Science and Similarly Named Computing Programs
+ ................................
+....................
+ 16 Cybersecurity and Similarly Named Associate Level Computing Programs
+......................
+ 17 Cybersecurity and Similarly Named Computing Programs
+ ................................
+...............................
+ 18 Data Science, Data Analytics and Similarly Named Computing Programs
+ ........................
+20
+ Information Systems and Similarly Named Computing Programs
+................................
+...............
+21
+ Information Technology and Similarly Named Associate Level Computing Programs
+ ................................
+................................
+................................
+................................
+................................
+................................
+...................
+ 22
+ Information Technology and Similarly Named Computing Programs
+ ................................
+......
+ 23
+ V. PROPOSED CHANGES TO THE CRITERIA
+ ................................
+................................
+................................
+.......
+ 24
+ Proposed Changes to CAC Definitions 
+Œ Program Constituencies
+ ................................
+...........
+ 25
+ Proposed Changes to CAC General Criteria 
+- Criterion 2
+................................
+................................
+..
+ 26
+ Proposed Changes to CAC General Criteria 
+- Criterion 5 (Comprehensive Project)
+ .27
+ Proposed Program Criteria for Computer Science and Similarly Named Computing 
+
+Programs
+................................
+................................
+................................
+................................
+................................
+...........................
+ 28
+    
+2025
+-2026 Criteria for Accrediting Computing Programs
+  2   Criteria for Accrediting Computing Programs
+ Effective for Reviews during the 2025
+-2026 Accreditation Cycle
+ Definitions
+ While ABET recognizes and supports the 
+prerogative of institutions to adopt and use 
+the terminology of their choice, it is necessary for ABET volunteers and staff to have a 
+
+consistent understanding of terminology. With that purpose in mind, the Commissions 
+
+will use the following basic definitio
+ns:
+ Program Educational Objectives
+ Program educational objectives are broad statements that describe what 
+
+graduates are expected to attain within a few years after graduation. Program 
+
+educational objectives are based on the needs of the program™s constituencies.
+ Student Outcomes
+ Student outcomes describe what students are expected to know and be able to 
+
+do by the time of graduation. These relate to the knowledge, skills, and 
+
+behaviors that students acquire as they progress through the program.
+ Assessment
+ Assessment is one or more processes that identify, collect, and prepare data to 
+
+evaluate the attainment of student outcomes. Effective assessment uses 
+
+relevant direct, indirect, quantitative and qualitative measures as appropriate 
+
+to the outcome being meas
+ured. Appropriate sampling methods may be used as 
+
+part of an assessment process.
+ Evaluation
+ Evaluation is one or more processes for interpreting the data and evidence 
+
+accumulated through assessment processes. Evaluation determines the extent 
+to which student outcomes are being attained. Evaluation results in decisions 
+
+and actions regarding progra
+m improvement.
+ Respectful Environment
+ A respectful environment supports, values, and treats all members fairly and 
+
+with dignity.
+    
+ 
+2025
+-2026 Criteria for Accrediting Computing Programs
+  3  The criteria for accreditation are in two sections.
+ General Criteria
+ General Criteria apply to all programs accredited by an ABET commission. 
+Each program accredited by an ABET commission must satisfy every Criterion 
+
+that is in the General Criteria for that commission.
+ Program Criteria
+ The Program Criteria provide discipline specific accreditation criteria. 
+
+Programs must show that they satisfy all of the specific Program Criteria 
+
+implied by the program title. Any overlapping requirements need be satisfied 
+
+only once.
+ All programs seeking accreditation from the Computing Accreditation Commission of 
+
+ABET must demonstrate that they satisfy all the General Criteria.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  4  I. GENERAL CRITERIA
+ Criterion 1. Students
+ Student performance must be evaluated. Student progress must be monitored to foster 
+success in attaining student outcomes, thereby enabling graduates to attain program 
+
+educational objectives. Students must be advised regarding curriculum and career 
+
+matters.
+ The program must have and enforce policies for accepting both new and transfer 
+
+students, awarding appropriate academic credit for courses taken at other institutions, 
+
+and awarding appropriate academic credit for work in lieu of courses taken at the 
+
+institu
+tion. The program must have and enforce procedures to ensure and document 
+that students who graduate meet all graduation requirements.
+ Criterion 2. Program Educational Objectives
+ The program must have published program educational objectives that are consistent 
+
+with the mission of the institution, the needs of the program™s various constituencies, 
+
+and these criteria. There must be a documented, systematically utilized, and effectiv
+e process, involving program constituencies, for the periodic review of these program 
+
+educational objectives that ensures they remain consistent with the institutional 
+
+mission, the program™s constituents™ needs, and these criteria.
+ Criterion 3. Student Outcomes
+ The program must have documented and publicly stated student outcomes that include 
+
+(1) through (5) below and any outcomes required by applicable Program Criteria. The 
+
+program may define additional outcomes.
+ Graduates of the program will have an ability to:
+ 1.
+ Analyze a complex computing problem and apply principles of computing and 
+
+other relevant disciplines to identify solutions.
+ 2.
+ Design, implement, and evaluate a computing
+-based solution to meet a given set 
+of computing requirements in the context of the program™s discipline.
+ 3.
+ Communicate effectively in a variety of professional contexts.
+ 4.
+ Recognize professional responsibilities and make informed judgments in 
+
+computing practice based on legal and ethical principles.
+ 5.
+ Function effectively as a member or leader of a team engaged in activities 
+
+appropriate to the program™s discipline.
+ Criterion 4. Continuous Improvement
+ The program must regularly use appropriate, documented processes for assessing and 
+
+evaluating the extent to which the student outcomes are being attained. The results of 
+
+these evaluations must be systematically utilized as input for the program™s continuou
+s improvement actions. Other available information may also be used to assist in the 
+
+continuous improvement of the program.
+ 
+2025
+-2026 Criteria for Accrediting Computing Programs
+  5  Criterion 5. Curriculum
+ The program™s requirements must be consistent with its program educational objectives 
+and designed in such a way that each of the student outcomes can be attained. The 
+
+curriculum must combine technical, professional, and general education components to 
+
+pre
+pare students for a career, further study, and lifelong professional development in 
+the computing discipline associated with the program.
+ The curriculum requirements specify topics, but do not prescribe specific courses. The 
+
+program must include mathematics, statistics, and science appropriate to the discipline 
+
+and at least 30 semester credit hours (or equivalent) of up
+-to-date coverage of 
+fundamental and advanced computing topics that provide both breadth and depth. The 
+computing topics must include:
+ 1.
+ Techniques, skills, and tools necessary for computing practice.
+ 2.
+ Principles and practices of security and privacy in computing.
+ 3.
+ Local and global impacts of computing solutions on individuals, organizations, 
+
+and society.
+ Criterion 6. Faculty
+ Each faculty member teaching in the program must have competency and currency 
+
+within the program™s discipline consistent with the contributions to the program 
+
+expected from the faculty member. The competency of faculty members must be 
+
+demonstrated by such 
+factors as education, professional credentials and certifications, 
+
+professional experience, ongoing professional development, contributions to the 
+
+discipline, teaching effectiveness, and communication skills. Collectively, the faculty 
+
+must have the breadth
+ and depth to cover all curricular areas of the program.
+ The faculty serving in the program must be of sufficient number to maintain continuity, 
+
+stability, oversight, student interaction, and advising. The faculty must have sufficient 
+
+responsibility and authority to improve the program through definition and rev
+ision of 
+program educational objectives and student outcomes as well as through the 
+
+implementation of a program of study that fosters the attainment of student outcomes.
+ Criterion 7. Facilities
+ Classrooms, offices, laboratories, and associated equipment must be adequate to 
+
+support attainment
+ of the student outcomes and to provide an atmosphere conducive to 
+learning. Modern tools, equipment, computing resources, and laboratories appropriate 
+
+to the program must be available
+ and systematically maintained and upgraded to 
+enable students to attain the student outcomes and to support program needs. Students 
+
+must be provided appropriate guidance regarding the use of the tools, equipment, 
+
+computing resources, and laboratories avail
+able to the program.
+ The library services and the computing and information infrastructure must be 
+
+adequate to support the scholarly and professional activities of the students and 
+
+faculty.
+ 
+2025
+-2026 Criteria for Accrediting Computing Programs
+  6  Criterion 8. Institutional Support
+ Institutional support, resources, and leadership must be sufficient to: a) ensure the 
+quality and 
+continuity of the program; b) attract, retain, and provide for the continued 
+professional development of a qualified faculty; c) acquire, maintain, and operate 
+
+infrastructures, facilities and equipment appropriate for the program; and d) create and 
+
+foster 
+a respectful environment among the program™s students, faculty, staff, and 
+administrators such that the student outcomes can be attained. Resources include 
+
+institutional services and policies, financial support, and administrative and technical 
+
+staff.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  7  II. GENERAL CRITERIA FOR ASSOCIATE LEVEL PROGRAMS
+ Criterion 1. Students
+ Student performance must be evaluated. Student progress must be monitored to foster 
+success in attaining student outcomes, thereby enabling graduates to attain program 
+
+educational objectives. Students must be advised regarding curriculum and career 
+
+matters
+. The program must have and enforce policies for accepting both new and transfer 
+
+students, awarding appropriate academic credit for courses taken at other institutions, 
+
+and awarding appropriate academic credit for work in lieu of courses taken at the 
+
+institu
+tion. The program must have and enforce procedures to ensure and document 
+that students who graduate meet all graduation requirements.
+ Criterion 2. Program Educational Objectives
+ The program must have published program educational objectives that are consistent 
+
+with the mission of the institution, the needs of the program™s various constituencies, 
+
+and these criteria. There must be a documented, systematically utilized, and effectiv
+e process, involving program constituencies, for the periodic review of these program 
+
+educational objectives that ensures they remain consistent with the institutional 
+
+mission, the program™s constituents™ needs and these criteria.
+ Criterion 3. Student Outcomes
+ The program must have documented and publicly stated student outcomes that include 
+
+(1) through (5) below and any outcomes required by applicable Program Criteria. The 
+
+program may define additional outcomes.
+ Graduates of the program will have an ability to:
+ 1.
+ analyze a broadly defined problem in the program™s domain and apply principles 
+
+of the discipline to identify solutions,
+ 2.
+ design and implement solutions to meet a given set of computing requirements in 
+
+the context of the program™s discipline,
+ 3.
+ communicate effectively in a variety of professional contexts,
+ 4.
+ recognize professional responsibilities and make informed judgments in 
+
+computing practice based on legal and ethical principles, and
+ 5.
+ function effectively as a member of a team engaged in activities appropriate to 
+
+the program™s discipline.
+ Criterion 4. Continuous Improvement
+ The program must regularly use appropriate, documented processes for assessing and 
+
+evaluating the extent to which the student outcomes are being attained. The results of 
+
+these evaluations must be systematically utilized as input for the program™s continuou
+s improvement actions. Other available information may also be used to assist in the 
+
+continuous improvement of the program.
+  
+2025
+-2026 Criteria for Accrediting Computing Programs
+  8  Criterion 5. Curriculum
+ The program™s requirements must be consistent with its program educational objectives 
+and designed in such a way that each of the student outcomes can be attained. The 
+
+curriculum must combine technical, professional, and general education components to 
+
+pre
+pare students for a career, further study, and lifelong professional development in 
+the computing discipline associated with the program.
+ The curriculum requirements specify topics, but do not prescribe specific courses. The 
+
+program must ensure its students have the mathematical or statistical skills required 
+
+for practice in the program™s discipline, and to meet its student outcomes and prog
+ram 
+educational objectives.
+ The program must include at least 16 semester credit hours (or equivalent) of up
+-to-date 
+coverage of:
+ 1.
+ application of techniques, skills and tools necessary for computing practice,
+ 2.
+ practices of privacy and security in computing,
+ 3.
+ local and global impacts of computing solutions on individuals, organizations, 
+
+and society
+. Criterion 6. Faculty
+ Each faculty member teaching in the program must have competency and currency 
+
+within the program™s discipline consistent with the contributions to the program 
+expected from the faculty member. The competency of faculty members must be 
+
+demonstrated by such 
+factors as education, professional credentials and certifications, 
+
+professional experience, ongoing professional development, contributions to the 
+
+discipline, teaching effectiveness, and communication skills. Collectively, the faculty 
+
+must have the breadth
+ and depth to cover all curricular areas of the program.
+ The faculty serving in the program must be of sufficient number to maintain continuity, 
+
+stability, oversight, student interaction, and advising. The faculty must have sufficient 
+
+responsibility and authority to improve the program through definition and rev
+ision of 
+program educational objectives and student outcomes as well as through the 
+
+implementation of a program of study that fosters the attainment of student outcomes.
+ Criterion 7. Facilities
+ Classrooms, offices, laboratories, and associated equipment must be adequate to 
+
+support attainment of the student outcomes and to provide an atmosphere conducive to 
+
+learning. Modern tools, equipment, computing resources, and laboratories appropriate 
+
+to the
+ program must be available
+ and systematically maintained and upgraded to 
+enable students to attain the student outcomes and to support program needs. Students 
+
+must be provided appropriate guidance regarding the use of the tools, equipment, 
+
+computing resour
+ces, and laboratories available to the program.
+ The library services and the computing and information infrastructure must be 
+
+adequate to support the scholarly and professional activities of the students and 
+
+faculty.
+ 
+2025
+-2026 Criteria for Accrediting Computing Programs
+  9  Criterion 8. Institutional Support
+ Institutional support, resources, and leadership must be sufficient to: a) ensure the 
+quality and continuity of the program; b) attract, retain, and provide for the continued 
+
+professional development of a qualified faculty; c) acquire, maintain, and operat
+e infrastructures, facilities and equipment appropriate for the program; and d) create and 
+
+foster a respectful environment among the program™s students, faculty, staff, and 
+
+administrators such that the student outcomes can be attained. Resources include 
+
+in
+stitutional services and policies, financial support, and administrative and technical 
+staff.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  10
+  III. 
+GENERAL CRITERIA FOR MASTER™S LEVEL PROGRAMS
+ General Criteria for 
+Stand
+-Alone 
+Master™s Programs
+ Criterion MS1. Students
+ Student performance and progress toward completion of programs of study must be 
+monitored and evaluated. The program must have and enforce policies and procedures 
+
+to ensure that a program of study with specific educational goals is developed for each 
+
+stude
+nt. The program must document and enforce procedures to ensure that students 
+who graduate meet all graduation requirements.
+ Criterion MS2. Program Educational Objectives
+ The program must have published program educational objectives that are consistent 
+
+with the mission of the institution, the needs of the program™s various constituencies, 
+
+and these criteria. There must be a documented, systematically utilized, and effectiv
+e process, involving program constituencies, for the periodic review of these program 
+
+educational objectives that ensures they remain consistent with the institutional 
+
+mission, the program™s constituents™ needs, and these criteria.
+ Criterion MS3. Student Outcomes
+ The program must have documented and publicly stated student outcomes that enable 
+
+graduates to attain a mastery of a 
+specific field of study or area of professional practice 
+consistent with the program™s discipline. These outcomes must include (1) through (5) 
+
+below and any outcomes required by applicable Program Criteria. The program may 
+
+define additional outcomes.
+ Graduates of the program will have an ability to:
+ 1.
+ analyze a complex problem and apply principles of computing and other relevant 
+
+disciplines to elaborate solutions to it,
+ 2.
+ design, implement, and evaluate a computing
+-based solution to meet a given set 
+of requirements in the context of the program™s discipline,
+ 3.
+ communicate effectively in a variety of professional contexts,
+ 4.
+ recognize professional responsibilities and make informed judgments in 
+
+computing practice based on legal and ethical principles, and
+ 5.
+ function effectively as a member and leader of a team engaged in activities 
+
+appropriate to the program™s discipline.
+ Criterion MS4. Continuous Improvement
+ The program must regularly use appropriate, documented processes for assessing and 
+
+evaluating the extent to 
+which the student outcomes are being attained. The results of 
+these evaluations must be systematically utilized as input for the program™s continuous 
+
+improvement actions. Other available information may also be used to assist in the 
+
+continuous improvement 
+of the program.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  11
+  Criterion MS5. Curriculum
+ The program curriculum must provide adequate content for each element of the 
+curriculum, consistent with the student outcomes and program educational objectives, 
+
+to ensure that students are prepared to enter the profession. The curriculum must 
+
+include:
+ 1.
+ a minimum of 30 semester credit hours (or equivalent) beyond the baccalaureate 
+
+level,
+ 2.
+ topics in a specific field of study or area of professional practice consistent with 
+
+the program name and at a level beyond baccalaureate
+-level programs, and
+ 3.
+ a project or research activity resulting in a set of deliverables that demonstrates 
+
+both the mastery of the subject matter and a high level of communication skills.
+ Additionally, graduates of the program must have completed a set of educational and 
+
+professional experiences of at least 30 semester credit hours (or equivalent) that 
+
+includes mathematics appropriate to the discipline as well as up
+-to-date coverage of 
+fund
+amental and advanced computing topics that provide both breadth and depth. The 
+
+documented experiences must include computing topics covering:
+ 1.
+ techniques, skills, and tools necessary for computing practice,
+ 2.
+ principles and practices of privacy and security in computing, and
+ 3.
+ local and global impacts of computing solutions on individuals, organizations, 
+
+and society.
+ Each student™s overall program of post
+-secondary educational and professional 
+experience must satisfy the curricular components of the Program Criteria relevant to 
+
+the master™s level program name.
+ Criterion MS6. Faculty
+ Each faculty member teaching in the program must have competency and currency 
+
+within the program™s discipline consistent with the contributions to the program 
+
+expected from the faculty member. The competency of faculty members must be 
+
+demonstrated by such 
+factors as education, professional credentials and certifications, 
+
+professional experience, ongoing professional development, contributions to the 
+
+discipline, teaching effectiveness, and communication skills. Collectively, the faculty 
+
+must have the breadth
+ and depth to cover all curricular areas of the program.
+ The faculty serving in the program must be of sufficient number to maintain continuity, 
+
+stability, oversight, student interaction, and advising. The faculty must have sufficient 
+
+responsibility and authority to improve the program through definition and rev
+ision of 
+program educational objectives and student outcomes as well as through the 
+
+implementation of a program of study that fosters the attainment of student outcomes. 
+
+Faculty teaching graduate
+-level courses must have appropriate educational 
+qualificatio
+ns by education or experience.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  12
+  Criterion MS7. Facilities
+ Classrooms, offices, laboratories, and associated equipment must be adequate to 
+support attainment of the student outcomes and to provide an atmosphere conducive to 
+
+learning. Modern tools, equipment, computing resources, and laboratories appropriate 
+
+to the
+ program must be available and systematically maintained and upgraded to 
+enable students to attain the student outcomes and to support program needs. Students 
+
+must be provided appropriate guidance regarding the use of the tools, equipment, 
+
+computing resour
+ces, and laboratories available to the program.
+ The library services and the computing and information infrastructure must be 
+
+adequate to support the scholarly and professional activities of the students and 
+
+faculty.
+ Criterion MS8. Institutional Support
+ Institutional support, resources, and leadership must be sufficient to: a) ensure the 
+
+quality and continuity of the program; b) attract, retain, and provide for the continued 
+
+professional development of a qualified faculty; c) acquire, maintain, and operat
+e infrastructures, facilities and equipment appropriate for the program; and d) create and 
+
+foster a respectful environment among the program™s students, faculty, staff, and 
+
+administrators such that the student outcomes can be attained. Resources include 
+
+in
+stitutional services and policies, financial support, and administrative and technical 
+staff.
+ General Criteria for
+ Integrated Baccalaureate
+-Master™s Programs
+ Criterion MI1. Students
+ Student performance must be evaluated. Student progress must be monitored to foster 
+
+success in attaining student outcomes, thereby enabling graduates to attain program 
+
+educational objectives. Students must be advised regarding curriculum and career 
+
+matters
+. The program must have and enforce policies for accepting both new and transfer 
+
+students, awarding appropriate academic credit for courses taken at other institutions, 
+
+and awarding appropriate academic credit for work in lieu of courses taken at the 
+
+institu
+tion. The program must have and enforce procedures to ensure and document 
+that students who graduate meet all graduation requirements. The program must have 
+
+and enforce policies and procedures to ensure that an individual program of study with 
+
+specific edu
+cational goals is developed for each student as part of the master™s level 
+component of the program.
+ Criterion MI2. Program Educational Objectives
+ The program must have published program educational objectives that are consistent 
+
+with the mission of the institution, the needs of the program™s various constituencies, 
+
+and these criteria. There must be a documented, systematically utilized, and effectiv
+e process, involving program constituencies, for the periodic review of these program 
+
+educational objectives that ensures they remain consistent with the institutional 
+
+mission, the program™s constituents™ needs, and these criteria.
+ 
+2025
+-2026 Criteria for Accrediting Computing Programs
+  13
+  Criterion MI3. Student Outcomes
+ The baccalaureate
+-level component of the program must support student outcomes 
+specified in Criterion 3 of the General Criteria for Baccalaureate Level Computing 
+Programs and any outcomes required by applicable baccalaureate Program Criteria 
+
+appropriate to
+ the program™s discipline.
+ In addition, the 
+program must have outcomes for the master™s level component that 
+prepare graduates to attain a mastery of a specific field of study or area of professional 
+
+practice consistent with the program name.
+ Criterion MI4. Continuous Improvement
+ The baccalaureate
+-level component of the program must support the process of 
+continuous improvement as prescribed in Criterion 4 of the General Criteria for 
+
+Baccalaureate Level Computing Programs. The master™s level component of the program 
+
+must have a doc
+umented and operational process for assessing, maintaining and 
+enhancing the quality of the program.
+ Criterion MI5. Curriculum
+ The program™s requirements must be consistent with its program educational objectives 
+
+and designed in such a way that each of the student outcomes can be attained.
+ The baccalaureate
+-level curriculum component of the program must be consistent with 
+the requirements of Criterion 5 of the General Criteria for Baccalaureate Level 
+Computing Programs and any curriculum required by applicable baccalaureate Program 
+
+Criteria 
+appropriate to the program™s discipline.
+ The curriculum must also include:
+ 1.
+ a minimum of 30 semester credit hours (or equivalent) beyond the baccalaureate 
+
+level,
+ 2.
+ a limited number of credit hours may be shared between the baccalaureate and 
+
+master™s programs but must be credit hours allowable in the master™s level 
+
+curriculum, and
+ 3.
+ topics in a specific field of study or area of professional practice consistent with 
+
+the program name and at a level beyond the baccalaureate level.
+ Criterion MI6. Faculty
+ Each faculty member teaching in the program must have competency and currency 
+
+within the program™s discipline consistent with the contributions to the program 
+
+expected from the faculty member. The competency of faculty members must be 
+
+demonstrated by such 
+factors as education, professional credentials and certifications, 
+
+professional experience, ongoing professional development, contributions to the 
+
+discipline, teaching effectiveness, and communication skills. Collectively, the faculty 
+
+must have the breadth
+ and depth to cover all curricular areas of the program.
+ The faculty serving in the program must be of sufficient number to maintain continuity, 
+
+stability, oversight, student interaction, and advising. The faculty must have sufficient 
+
+2025
+-2026 Criteria for Accrediting Computing Programs
+  14
+  responsibility and authority to improve the program through definition and revision of 
+program educational objectives and student outcomes as well as through the 
+
+implementation of a program of study that fosters the attainment of student outcomes.
+ In addition, faculty teaching graduate level courses must have appropriate educational 
+
+qualifications by education or experience.
+ Criterion MI7. Facilities
+ Classrooms, offices, laboratories, modern tools, computing resources, and associated 
+
+equipment must be safely and systematically maintained and upgraded, and must be 
+
+adequate to support attainment of the student outcomes, provide an atmosphere 
+
+conducive to
+ learning, and to support program needs. Students must be provided 
+guidance on the appropriate and safe use of the tools, equipment, computing resources, 
+
+laboratories, and other resources available to them.
+ The library services and the computing and information infrastructure must be 
+
+adequate to support the scholarly and professional activities of the students and 
+
+faculty.
+ Criterion MI8. Institutional Support
+ Institutional support, resources, and leadership must be sufficient to: a) ensure the 
+
+quality and continuity of the program; b) attract, retain, and provide for the continued 
+
+professional development of a qualified faculty; c) acquire, maintain, and operat
+e infrastructures, facilities and equipment appropriate for the program; and d) create and 
+
+foster a respectful environment among the program™s students, faculty, staff, and 
+
+administrators such that the student outcomes can be attained. Resources include 
+
+in
+stitutional services and policies, financial support, and administrative and technical 
+staff.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  15
+  IV. PROGRAM CRITERIA
+ All programs seeking accreditation from the Computing Accreditation Commission of 
+ABET must demonstrate that they satisfy all of the specific Program Criteria implied by 
+
+the program title.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  16
+  Computer Science and Similarly Named Computing Programs
+ Lead Society: CSAB
+ These program criteria apply to computing programs using computer science or similar 
+terms in their titles.
+ 3. Student Outcomes
+ In addition to outcomes 1 through 5, graduates of the program will also have an ability 
+
+to:
+ 6.
+ Apply computer science theory and software development fundamentals to 
+
+produce computing
+-based solutions. [CS]
+ 5. 
+Curriculum
+ The curriculum requirements are in addition to the General Criteria curriculum 
+
+requirements and specify topics, but do not prescribe specific courses.
+ These requirements are:
+ a.
+ Computer science: At least 40 semester credit hours (or equivalent) that must 
+
+include:
+ 1.
+ Substantial coverage of algorithms and complexity, computer science 
+
+theory, concepts of programming languages, and software development.
+ 2.
+ Substantial coverage of at least one general
+-purpose programming 
+language.
+ 3.
+ Exposure to computer architecture and organization, information 
+
+management, networking and communication, operating systems, and 
+
+parallel and distributed computing.
+ 4.
+ The study of computing
+-based systems at varying levels of abstraction.
+ 5.
+ A major project that requires integration and application of knowledge and 
+
+skills acquired in earlier course work.
+ b. Mathematics and Statistics: At least 15 semester credit hours (or equivalent) that 
+
+must include discrete mathematics, probability, and statistics and must have 
+
+mathematical rigor at least equivalent to introductory calculus.
+ c. Science: Coursework that develops and applies the scientific method in a non
+-computing area.
+ 6. Faculty
+ In addition to the General Criteria faculty requirements, some full
+-time faculty 
+members must have a Ph.D.
+ in computer science.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  17
+  Cybersecurity and Similarly Named Associate Level Computing 
+Programs
+ Lead Society: CSAB
+ These program criteria apply to associate level computing programs using 
+cybersecurity, cyber operations, computer security, information assurance, information 
+
+security, computer forensics, or similar terms in their titles.
+ 3. Student Outcomes
+ In addition to outcomes 1 through 5, graduates of the program will have an ability to:
+ 6.
+ Apply security principles and practices to maintain operations in the presence of 
+
+risks and threats.
+ 5. Curriculum
+ The curriculum requirements are in addition to the General Criteria curriculum 
+
+requirements and specify topics, but do not prescribe specific courses. The program 
+
+must require at least 30 semester credit hours (or equivalent) of computing and 
+
+cybersecurity
+ coursework that must include the following:
+ 1.
+ Application of the crosscutting concepts of confidentiality, integrity, availability, 
+
+risk, adversarial thinking and systems thinking.
+ 2.
+ Cybersecurity topics from each of 
+the following areas:
+ a)
+ Data Security: protection of data at rest, during processing, and in transit.
+ b) Software Security: development and use of software that reliably preserves 
+
+the security properties of the protected information and systems.
+ c) Component Security: the security aspects of the design, procurement, 
+
+testing, analysis, and maintenance of components integrated into larger 
+
+systems.
+ d) Connection Security: security of the connections between components, both 
+
+physical and logical.
+ e) System Security: security aspects of systems that use software and are 
+
+composed of components and connections.
+ f) Human Security: the study of human behavior in the context of data 
+
+protection, privacy, and threat mitigation.
+ g)
+ Organizational Security: protecting organizations from cybersecurity 
+
+threats and managing risk to support successful accomplishment of the 
+
+organizations™ missions.
+ h) Societal Security: aspects of cybersecurity that broadly impact society as a 
+
+whole.
+ 3.
+ Programming or scripting skills.
+ 4.
+ Advanced cybersecurity topics 
+that build on the above crosscutting concepts and 
+cybersecurity topics.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  18
+  Cybersecurity and Similarly Named Computing Programs
+ Lead Society: CSAB
+ These program criteria apply to computing programs using cybersecurity, cyber 
+operations, computer security, information assurance, information security, computer 
+
+forensics, or similar terms in their titles.
+ 3. Student Outcomes
+ In addition to outcomes 1 through 5, graduates of the program will also have an ability 
+
+to:
+ 6.
+ Apply security principles and practices to maintain operations in the presence of 
+
+risks and threats. [CY]
+ 5. Curriculum
+ The curriculum requirements are in addition to the General Criteria curriculum 
+
+requirements and specify topics, but do not prescribe specific courses. These 
+
+requirements are:
+ (a)
+ At least 45 semester credit hours (or equivalent) of computing and cybersecurity 
+
+course work. The course work must include:
+ 1.
+ Application of the crosscutting concepts of confidentiality, integrity, 
+
+availability, risk, adversarial thinking, and systems thinking.
+ 2.
+ Fundamental topics from each of the following:
+ a)
+ Data Security: protection of data at rest, during processing, and in 
+
+transit.
+ b) Software Security: development and use of software that reliably 
+
+preserves the security properties of the protected information and 
+
+systems.
+ c) Component Security: the security aspects of the design, procurement, 
+
+testing, analysis, and maintenance of components integrated into 
+
+larger systems.
+ d) Connection Security: security of the connections between 
+
+components, both physical and 
+logical.
+ e) System Security: security aspects of systems that use software and 
+
+are composed of components and connections.
+ f) Human Security: the study of human behavior in the context of data 
+
+protection, privacy, and threat mitigation.
+ g)
+ Organizational Security: protecting organizations from cybersecurity 
+
+threats and managing risk to support successful accomplishment of 
+the organizations™ missions.
+ h) Societal Security: aspects of cybersecurity that broadly impact 
+
+society as a whole.
+ 3.
+ Advanced cybersecurity topics that build on crosscutting concepts and 
+
+fundamental topics to provide depth.
+ 
+2025
+-2026 Criteria for Accrediting Computing Programs
+  19
+  (b)
+ At least 6 semester credit hours (or equivalent) of mathematics that must include 
+discrete mathematics and statistics.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  20
+  Data Science, Data Analytics and Similarly Named Computing Programs
+ Lead Society: CSAB
+ These program criteria apply to computing programs using data science, data analytics 
+or similar terms in their titles.
+ 3. Student Outcomes
+ In addition to outcomes 1 through 5, graduates of the program will also have an ability 
+
+to:
+ 6.
+ Apply theory, techniques, and tools throughout the data science lifecycle and 
+
+employ the resulting knowledge to satisfy stakeholders™ needs. [DS]
+ 5. Curriculum
+ The curriculum requirements are in addition to the General Criteria curriculum 
+
+requirements and specify topics, but do not prescribe specific courses.
+ These requirements are:
+ At least 45 semester credit hours (or equivalent) of data science course work that must 
+
+cover:
+ 1.
+ Fundamental data science lifecycle topics:
+ a)
+ Data acquisition and representativeness
+ b) Data management
+ c) Data preparation and integration
+ d) Data analysis
+ e) Model development and deployment
+ f) Visualization and communication of the knowledge obtained from the data
+ 2.
+ Concepts that span and are applied to the data science lifecycle:
+ a)
+ Data ethics 
+including legitimate use and algorithmic fairness
+ b) Governance including privacy, security, and stewardship
+ c) Applied Statistical and mathematical topics including inference, modeling, 
+
+linear algebra, probability, and optimization
+ d) Computing including data structures and algorithms
+ 3.
+ Advanced data science coursework that provides depth.
+ 4.
+ Coverage of at least one application area that provides a context for data science 
+
+activities.
+ 5.
+ A major project that incorporates an application area and requires integration 
+and application of knowledge and skills acquired in earlier course work.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  21
+  Information Systems and Similarly Named Computing Programs
+ Lead Society: CSAB
+ These program criteria apply to computing programs using information systems or 
+similar terms in their 
+titles.
+ Definition
+ Information Systems Environment
+  An information systems environment is an organized domain of activity within which 
+
+information systems are used to support and enable the goals of the activity. Examples 
+
+of information systems environments include (but are not limited to) business, health 
+
+care, government, not
+-for
+-profit organizations, and scientific disciplines.
+ 3. Student Outcomes
+ In addition to outcomes 1 through 5, graduates of the program will also have an ability 
+
+to:
+ 6.
+ Support the delivery, use, and management of information systems within an 
+
+information systems environment. [IS]
+ 5. Curriculum
+ The curriculum requirements are in addition to the General Criteria curriculum 
+
+requirements and specify topics, but do not prescribe specific courses.
+ These requirements are:
+ a.
+ Information systems: At least 30 semester credit hours (or equivalent) that 
+
+include coverage of fundamentals and applied practice in application 
+
+development; programming; data and information management; information 
+
+technology infrastructure; systems analy
+sis, design and acquisition; project 
+management; and the role of information systems in organizations;
+ b. Information systems environment: At least 15 additional semester credit hours (or 
+
+equivalent) of a cohesive set of topics that provide an understanding of an 
+
+information systems environment;
+ c. A major project that requires integration and application of knowledge and skills 
+
+acquired in earlier course work; and
+ d. Appropriate mathematical and statistical models and 
+techniques to solve a broad 
+
+range of problems in Information Systems.
+ 6. Faculty
+ In addition to the General Criteria faculty requirements, some full
+-time faculty 
+members, including those responsible for the information systems curriculum 
+
+development, must hold a terminal degree with a program of study in information 
+
+systems.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+ 22
+ Information Technology and Similarly Named Associate Level 
+Computing Programs
+ Lead Society: CSAB
+ These program criteria apply to associate level computing programs using information 
+technology or similar terms in their titles.
+ 3.Student Outcomes
+In addition to outcomes 1 through 5, graduates of the program will also have an ability 
+
+to:
+ 6.
+Use established approaches to apply, integrate, and administer secure computing
+
+technologies to accomplish user goals.
+5.Curriculum
+The curriculum requirements are in addition to the General Criteria curriculum 
+
+requirements and specify topics, but do not prescribe specific courses.
+ These requirements are:
+ At least 21 semester credit hours (or equivalent) of Information Technology coursework 
+
+that must include:
+ 1.
+Fundamentals and applied practice in each of the following areas:
+a)
+substantial coverage of:
+1.
+information management,
+2.networking,
+3.
+software development and management;
+b)exposure to:
+1.
+integrated systems,
+2.
+platform technologies,
+3.
+system paradigms,
+4.
+experience design,5.web and mobile systems;
+2.
+Supplemental information technology topics that build on fundamentals and are
+
+appropriate to the program; and
+3.
+Experiential learning appropriate
+ to the program.
+
+2025
+-2026 Criteria for Accrediting Computing Programs
+  23
+  Information Technology and Similarly Named Computing Programs
+ Lead Society: CSAB
+ These program criteria apply to computing programs using information technology or 
+similar terms in their titles.
+ 3. Student Outcomes
+ In addition to 
+outcomes 1 through 5, graduates of the program will also have an ability 
+to:
+ 6.
+ Use systemic approaches to select, develop, apply, integrate, and administer 
+
+secure computing technologies to accomplish user goals. [IT]
+ 5. Curriculum
+ The curriculum requirements are in addition to the General Criteria curriculum 
+
+requirements and specify topics, but do not prescribe specific courses.
+ The requirements are:
+ (a)
+ Information Technology: At least 45 semester credit hours (or equivalent) that 
+
+must include:
+ 1.
+ Fundamentals and applied practice in:
+ a.
+ information management
+ b. integrated systems
+ c. platform technologies
+ d. system paradigms
+ e. user experience design
+ f. networking
+ g.
+ software development and management
+ h. web and mobile systems
+ 2.
+ Advanced and supplemental IT topics that build on 
+fundamentals and 
+
+applied practice to provide depth.
+ 3.
+ Experiential learning appropriate to the program.
+ 4.
+ Principles and practices of IT project management.
+ (b)
+ Mathematics: At least six semester credit hours (or equivalent) of appropriate 
+
+mathematical topics that includes relevant discrete mathematics.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  24
+  V. PROPOSED CHANGES TO THE CRITERIA
+ The following section presents proposed changes to these criteria as approved by the 
+ABET Computing Area Delegation on October 25, 2024 for a 180
+-day review and public 
+comment period. Comments will be considered until June 15, 2025. The ABET 
+
+Computing Area
+ Delegation will determine, based on the comments received and on the 
+advice of the CAC, the content of the adopted criteria. The adopted criteria will then 
+
+become effective following the ABET Computing Area Delegation Meeting in the fall of 
+
+2025 and would
+ first be applied by the CAC for accreditation reviews during the 2026
+-27 
+review cycle.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  25
+  Proposed Changes to CAC Definitions 
+Œ Program Constituencies
+ Definitions
+ Program Constituencies
+ Program constituencies are groups, including external groups, identified by the 
+program that have a common interest in the program and can provide 
+
+meaningful input regarding the program educational objectives.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  26
+  Proposed Changes to CAC General Criteria 
+- Criterion 2
+ General Criteria for Computing Programs
+ Criterion 2. Program Educational Objectives
+ The program must have published program educational objectives
+, as defined in these 
+criteria, 
+that are consistent with the mission of the institution
+, and 
+the needs of the 
+program™s various constituencies
+, and these criteria
+. There must be a documented, 
+systematically utilized, and effective process, involving 
+program
+ all 
+constituencies 
+identified by the program
+, for the periodic review of these program educational 
+objectives that ensures they remain consistent with the institutional mission 
+and
+, the 
+needs 
+of the program™s 
+constituencies 
+constituents™ needs, and these criteria
+.   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  27
+  Proposed Changes to CAC General Criteria 
+- Criterion 5 (Comprehensive 
+Project)
+ Definitions
+ Professional Dispositions
+ Professional dispositions are behaviors desired in the workplace.
+ Criterion 5. Curriculum
+ [–]
+ The curriculum requirements specify topics, but do not prescribe specific courses. The 
+program must include 
+mathematics, statistics, and science appropriate to the discipline 
+and at least 30 semester credit hours (or equivalent) of up
+-to-date coverage of 
+fundamental and advanced computing topics that provide both breadth and depth. The 
+
+computing topics must incl
+ude:
+ 1.
+ Techniques, skills, and tools necessary for computing practice.
+ 2.
+ Principles and practices of security and privacy in computing.
+ 3.
+ Local and global impacts of computing solutions on individuals, organizations, 
+
+and society.
+ 4.
+ A comprehensive project or 
+experience appropriate to the discipline which: 1) 
+builds on technical knowledge and skills acquired in prior advanced course work, 
+
+and 2) enables the application of appropriate professional dispositions.
+   
+2025
+-2026 Criteria for Accrediting Computing Programs
+  28
+  Proposed Program Criteria for Computer Science and Similarly Named 
+Computing Programs
+ Lead Society: CSAB
+ These program criteria apply to computing programs using computer science or similar 
+terms in their titles.
+ [–]
+ 5. Curriculum
+ The curriculum requirements are in addition to the General Criteria curriculum 
+
+requirements and specify topics, but do not prescribe specific courses.
+ These requirements are:
+ a.
+ Computer science: At least 40 semester credit hours (or equivalent) that must 
+
+include:
+ 1.
+ Substantial coverage of
+: algorithms and complexity
+,; computer science 
+theory
+,; concepts of programming languages
+,; and
+ software development 
+fundamentals; software engineering; and artificial intelligence
+. 2.
+ Substantial coverage of at least one general
+-purpose programming 
+language.
+ 3.
+ Exposure to
+: computer architecture and organization
+,; information
+ data 
+management
+,; networking and communication
+,; operating systems
+,; and 
+parallel and distributed computing
+; specialized platforms; graphics and 
+interactive techniques; human computer interaction; and sustainable 
+
+computing
+. 4.
+ The 
+study of computing
+-based systems at varying levels of abstraction.
+ 5.
+ A major project that requires integration and application of knowledge and 
+
+skills acquired in earlier course work.
+ b. Mathematics and Statistics: At least 15 semester credit hours (or equivalent) that 
+
+must include discrete mathematics, probability, and statistics and must have 
+
+mathematical rigor at least equivalent to introductory calculus.
+ c. Science: Coursework that develops and applies the scientific method in a non
+-computing area.
+ 
