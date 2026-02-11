@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: php_server
+    restart: always
+    working_dir: /var/www
+    environment:
+      - name=value
+    volumes:
+      - ../src/:/var/www
+  nginx:
+    image: nginx:1.29.5-alpine
+    container_name: nginx_server
+    restart: always
+    ports:
+      - "8000:80"
+    volumes:
+      - ../src/:/var/www
+      - ./nginx:/etc/nginx/conf.d
