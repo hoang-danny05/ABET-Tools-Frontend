@@ -1,10 +1,10 @@
-# The Frontend for ABET-Tools
+# The Frontend-Backend interface for ABET-Tools
 
-This is a version control tracker of the Frontend. The job of this repository is to simply track the state of the Frontend. 
+This is a version control tracker of the PHP Backend that controls how the different components interface with the browser.. The job of this repository is to simply track the state of the Backend and how it interfaces with the frontend. 
 
 It is not currently setup to be locally runnable, only on osburn's server. 
 
-## Backing up the frontend 
+## Backing up the codebase 
 
 This requires the ABET private key to be setup. 
 1) git clone this repo.
