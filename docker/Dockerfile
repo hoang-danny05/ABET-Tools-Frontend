@@ -5,5 +5,6 @@ RUN apt-get update && apt-get install -y \
     unzip 
 
 
+#RUN mkdir -p /var/www/
 WORKDIR /var/www
 

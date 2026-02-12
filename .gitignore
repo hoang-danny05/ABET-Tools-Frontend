@@ -7,3 +7,5 @@ config.php
 ## php composer files
 composer.phar
 vendor
+
+nginx-cloud

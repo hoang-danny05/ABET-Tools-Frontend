@@ -1,0 +1,129 @@
+Options -Indexes
+Options -MultiViews
+
+RewriteEngine On
+
+# -------------------------------------------------
+# Recover malformed path like /home/osburn/public_html/...
+# -------------------------------------------------
+RewriteCond %{REQUEST_URI} ^/home/osburn/public_html/abet\.asucapstonetools\.com(?:/.*)?$ [NC]
+RewriteRule ^ /login [R=302,L]
+
+# -------------------------------------------------
+# Root domain -> /login
+# -------------------------------------------------
+RewriteRule ^$ /login [R=302,L]
+
+# -------------------------------------------------
+# Canonicalize direct script URLs -> pretty URLs
+# -------------------------------------------------
+RewriteCond %{THE_REQUEST} \s/+index\.php(?:[?\s]|$) [NC]
+RewriteRule ^index\.php$ /home [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+auth/login\.php(?:[?\s]|$) [NC]
+RewriteRule ^auth/login\.php$ /login [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+auth/register\.php(?:[?\s]|$) [NC]
+RewriteRule ^auth/register\.php$ /register [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+auth/logout\.php(?:[?\s]|$) [NC]
+RewriteRule ^auth/logout\.php$ /logout [R=302,L]
+
+# Account page canonicalization
+RewriteCond %{THE_REQUEST} \s/+account/profile/index\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/profile/index\.php$ /account/profile [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/settings/index\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/settings/index\.php$ /account/settings [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/privacy/index\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/privacy/index\.php$ /account/privacy [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/help/index\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/help/index\.php$ /account/help [R=302,L]
+
+# Optional: canonicalize account action scripts
+RewriteCond %{THE_REQUEST} \s/+account/profile/update\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/profile/update\.php$ /account/profile/update [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/settings/email\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/settings/email\.php$ /account/settings/email [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/settings/password\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/settings/password\.php$ /account/settings/password [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/settings/sessions\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/settings/sessions\.php$ /account/settings/sessions [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/privacy/consent\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/privacy/consent\.php$ /account/privacy/consent [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/privacy/export-data\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/privacy/export-data\.php$ /account/privacy/export-data [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/privacy/delete-request\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/privacy/delete-request\.php$ /account/privacy/delete-request [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/help/faq\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/help/faq\.php$ /account/help/faq [R=302,L]
+
+RewriteCond %{THE_REQUEST} \s/+account/help/contact\.php(?:[?\s]|$) [NC]
+RewriteRule ^account/help/contact\.php$ /account/help/contact [R=302,L]
+
+# -------------------------------------------------
+# Pretty URLs -> actual files (internal rewrites)
+# IMPORTANT: keep these BEFORE -f/-d to avoid route-shadow issues
+# -------------------------------------------------
+RewriteRule ^home/?$ index.php [L,NC,QSA]
+RewriteRule ^login/?$ auth/login.php [L,NC,QSA]
+RewriteRule ^register/?$ auth/register.php [L,NC,QSA]
+RewriteRule ^logout/?$ auth/logout.php [L,NC,QSA]
+
+# Account pages
+RewriteRule ^account/profile/?$ account/profile/index.php [L,NC,QSA]
+RewriteRule ^account/settings/?$ account/settings/index.php [L,NC,QSA]
+RewriteRule ^account/privacy/?$ account/privacy/index.php [L,NC,QSA]
+RewriteRule ^account/help/?$ account/help/index.php [L,NC,QSA]
+
+# Account actions
+RewriteRule ^account/profile/update/?$ account/profile/update.php [L,NC,QSA]
+RewriteRule ^account/settings/email/?$ account/settings/email.php [L,NC,QSA]
+RewriteRule ^account/settings/password/?$ account/settings/password.php [L,NC,QSA]
+RewriteRule ^account/settings/sessions/?$ account/settings/sessions.php [L,NC,QSA]
+RewriteRule ^account/privacy/consent/?$ account/privacy/consent.php [L,NC,QSA]
+RewriteRule ^account/privacy/export-data/?$ account/privacy/export-data.php [L,NC,QSA]
+RewriteRule ^account/privacy/delete-request/?$ account/privacy/delete-request.php [L,NC,QSA]
+RewriteRule ^account/help/faq/?$ account/help/faq.php [L,NC,QSA]
+RewriteRule ^account/help/contact/?$ account/help/contact.php [L,NC,QSA]
+
+# -------------------------------------------------
+# Block common WordPress probe paths
+# -------------------------------------------------
+RewriteRule ^xmlrpc\.php$ - [F,L,NC]
+RewriteRule ^wp- - [F,L,NC]
+RewriteRule ^.*wlwmanifest\.xml$ - [F,L,NC]
+RewriteRule ^wordpress/ - [F,L,NC]
+
+# -------------------------------------------------
+# Existing files/dirs pass through
+# -------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# disabled server side caching for security + easy updates
+<IfModule mod_expires.c>
+    ExpiresActive Off
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

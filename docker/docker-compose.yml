@@ -9,9 +9,10 @@ services:
     restart: always
     working_dir: /var/www
     environment:
-      - name=value
+      - ABET_PRIVATE_DIR=/home/abet_private
     volumes:
-      - ../src/:/var/www
+      - ../src/abet_private:/home/abet_private
+      - ../src/public:/var/www/public
   nginx:
     image: nginx:1.29.5-alpine
     container_name: nginx_server
@@ -19,5 +20,6 @@ services:
     ports:
       - "8000:80"
     volumes:
-      - ../src/:/var/www
+      - ../src/abet_private:/home/abet_private
+      - ../src/public:/var/www/public
       - ./nginx:/etc/nginx/conf.d
