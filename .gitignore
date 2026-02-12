@@ -8,4 +8,8 @@ config.php
 composer.phar
 vendor
 
-nginx-cloud
+apache2
+mysql_data
+
+*.key
+*.crt
