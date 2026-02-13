@@ -36,6 +36,7 @@ function profile_get_for_user(int $userId): array {
 }
 
 function profile_save_for_user(int $userId, array $data): bool {
+
     $sql = 'INSERT INTO user_profiles
             (user_id, display_name, department, phone, office_location, bio)
             VALUES

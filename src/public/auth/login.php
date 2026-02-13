@@ -22,11 +22,10 @@ function user_agent(): ?string {
 function log_login_event(?int $userId, ?string $emailAttempted, string $result, ?string $reason = null): void {
   try {
     db()->prepare(
-      'INSERT INTO login_events (user_id, email_attempted, result, reason, ip_address, user_agent)
+      'INSERT INTO login_events (user_id, result, reason, ip_address, user_agent)
        VALUES (:user_id, :email_attempted, :result, :reason, :ip, :ua)'
     )->execute([
       ':user_id' => $userId,
-      ':email_attempted' => $emailAttempted,
       ':result' => $result, // success | failed_password | failed_mfa | locked
       ':reason' => $reason,
       ':ip' => client_ip(),
@@ -37,7 +36,19 @@ function log_login_event(?int $userId, ?string $emailAttempted, string $result, 
   }
 }
 
-function log_audit(?int $actorUserId, string $action, ?string $targetType = null, ?string $targetId = null, ?array $metadata = null): void {
+
+/**
+ * Logs an audit event with optional metadata. Designed to be flexible for various actions (not just login).
+ * @param $actorUserId The user ID of the target of the login attempt.
+ * @param $action A string representing the action type (e.g., 'login_success', 'login_failure', 'password_change').
+ */
+function log_audit(
+  ?int $actorUserId, 
+  string $action, 
+  ?string $targetType = null, 
+  ?string $targetId = null, 
+  ?array $metadata = null
+  ): void {
   try {
     db()->prepare(
       'INSERT INTO audit_log (actor_user_id, action, target_type, target_id, metadata, ip_address)

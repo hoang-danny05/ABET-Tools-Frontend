@@ -1,5 +1,5 @@
 <?php
-require_once $_ENV['ABET_PRIVATE_DIR'] . '/config/config.php';
+#require_once $_ENV['ABET_PRIVATE_DIR'] . '/config/config.php';
 require_once $_ENV['ABET_PRIVATE_DIR'] . '/lib/db.php';
 require_once $_ENV['ABET_PRIVATE_DIR'] . '/lib/auth.php';
 
@@ -41,6 +41,7 @@ function password_policy_check(string $password): array {
 
 $email = '';
 
+// This responds to the form submission to create a new account. It performs validation and shows errors if any.
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $email = strtolower(trim($_POST['email'] ?? ''));
   $password = (string)($_POST['password'] ?? '');

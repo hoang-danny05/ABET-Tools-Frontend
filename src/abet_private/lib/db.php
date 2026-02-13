@@ -1,8 +1,10 @@
 <?php
 declare(strict_types=1);
 
-require_once $_ENV['ABET_PRIVATE_DIR'] . '/config/config.php';
 
+/**
+ * Returns a PDO instance connected to the database. Uses a static variable to ensure only one connection is created (singleton pattern).
+ */
 function db(): PDO
 {
     static $pdo = null;
@@ -11,9 +13,9 @@ function db(): PDO
         return $pdo;
     }
 
-    $dsn = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4';
+    $dsn = 'mysql:host=' . $_ENV['DB_HOST'] . ';dbname=' . $_ENV['DB_NAME'] . ';charset=utf8mb4';
 
-    $pdo = new PDO($dsn, DB_USER, DB_PASS, [
+    $pdo = new PDO($dsn, $_ENV['DB_USER'], $_ENV['DB_PASS'], [
         PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
         PDO::ATTR_EMULATE_PREPARES   => false,
