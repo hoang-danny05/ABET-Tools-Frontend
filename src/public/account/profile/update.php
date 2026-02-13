@@ -8,27 +8,34 @@ require_once $_ENV['ABET_PRIVATE_DIR'] . '/lib/validators.php';
 require_once $_ENV['ABET_PRIVATE_DIR'] . '/lib/account_profile_service.php';
 require_once $_ENV['ABET_PRIVATE_DIR'] . '/lib/db.php';
 
+// this must be a POST request
 if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'POST') {
     header('Allow: POST');
     http_response_code(405);
     exit('Method Not Allowed');
 }
 
+// validate CSRF token
 $token = (string)($_POST['csrf_token'] ?? '');
 if (!csrf_validate($token, 'profile_update')) {
     safe_redirect('/account/profile/?error=csrf');
 }
 
+// ensure user is authenticated
 $userId = (int)($_SESSION['user_id'] ?? 0);
 if ($userId <= 0) {
     safe_redirect('/login');
 }
 
+// validate input
 [$data, $errors] = validate_profile_input($_POST);
+
+// if there are validation errors, redirect back with an error message
 if (!empty($errors)) {
     safe_redirect('/account/profile/?error=validation');
 }
 
+// validation passed, attempt to save profile
 $ok = profile_save_for_user($userId, $data);
 
 try {
@@ -47,6 +54,7 @@ try {
     // don't block user flow on logging failure
 }
 
+// if save failed, redirect back with an error message; otherwise redirect with success message
 if (!$ok) {
     safe_redirect('/account/profile/?error=save');
 }

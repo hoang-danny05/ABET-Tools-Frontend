@@ -21,22 +21,23 @@ function user_agent(): ?string {
 
 // need to update because I changed the table
 
-// function log_login_event(?int $userId, ?string $emailAttempted, string $result, ?string $reason = null): void {
-//   try {
-//     db()->prepare(
-//       'INSERT INTO login_events (user_id, result, reason, ip_address, user_agent)
-//        VALUES (:user_id, :email_attempted, :result, :reason, :ip, :ua)'
-//     )->execute([
-//       ':user_id' => $userId,
-//       ':result' => $result, // success | failed_password | failed_mfa | locked
-//       ':reason' => $reason,
-//       ':ip' => client_ip(),
-//       ':ua' => user_agent(),
-//     ]);
-//   } catch (Throwable $e) {
-//     // Fail-open: never break login flow if logging table/insert fails.
-//   }
-// }
+function log_login_event(?int $userId, ?string $emailAttempted, string $result, ?string $reason = null): void {
+  try {
+    db()->prepare(
+      'INSERT INTO login_events (user_id, email_attempted, result, reason, ip_address, user_agent)
+       VALUES (:user_id, :email_attempted, :result, :reason, :ip, :ua)'
+    )->execute([
+      ':user_id' => $userId,
+      ':email_attempted' => $emailAttempted,
+      ':result' => $result, // success | failed_password | failed_mfa | locked
+      ':reason' => $reason,
+      ':ip' => client_ip(),
+      ':ua' => user_agent(),
+    ]);
+  } catch (Throwable $e) {
+    // Fail-open: never break login flow if logging table/insert fails.
+  }
+}
 
 
 /**
