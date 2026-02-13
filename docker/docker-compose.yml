@@ -1,7 +1,7 @@
 services:
   php_apache:
     build: 
-      context: .
+      context: ./app/
       dockerfile: Dockerfile
     container_name: php_apache
     environment:
@@ -24,7 +24,9 @@ services:
       - mysql
 
   mysql:
-    image: mysql:8.0.45
+    build: 
+      context: ./mysql/
+      dockerfile: Dockerfile
     container_name: mysql
     environment:
     # CHANGE THESE VALUES BEFORE DEPLOYING TO PRODUCTION
@@ -32,10 +34,8 @@ services:
       MYSQL_DATABASE: abet_tools_db
       MYSQL_USER: abet_user
       MYSQL_PASSWORD: abet_password
-    ports:
-      - "3306:3306"
     volumes:
-      - ./mysql_data:/var/lib/mysql
+      - ./mysql/mysql_data:/var/lib/mysql
       - ../src/abet_private:/home/abet_private
 
 networks:
