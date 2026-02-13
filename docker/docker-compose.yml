@@ -6,10 +6,10 @@ services:
     container_name: php_apache
     environment:
       - ABET_PRIVATE_DIR=/home/abet_private
-      - DB_HOST=localhost
-      - DB_NAME=abet_tools_db
-      - DB_USER=abet_user
-      - DB_PASS=abet_password
+      - DB_HOST=mysql
+      - DB_NAME=${MYSQL_DATABASE}
+      - DB_USER=${MYSQL_USER}
+      - DB_PASS=${MYSQL_PASS}
       - SESSION_IDLE_TIMEOUT=1800
       - SESSION_ABSOLUTE_TIMEOUT=28800
       - SESSION_COOKIE_SAMESITE=Lax
@@ -30,13 +30,15 @@ services:
     container_name: mysql
     environment:
     # CHANGE THESE VALUES BEFORE DEPLOYING TO PRODUCTION
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: abet_tools_db
-      MYSQL_USER: abet_user
-      MYSQL_PASSWORD: abet_password
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASS}
     volumes:
       - ./mysql/mysql_data:/var/lib/mysql
       - ../src/abet_private:/home/abet_private
+    networks:
+      - app_network
 
 networks:
   app_network:

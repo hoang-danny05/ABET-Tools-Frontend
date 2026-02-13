@@ -19,22 +19,24 @@ function user_agent(): ?string {
   return $_SERVER['HTTP_USER_AGENT'] ?? null;
 }
 
-function log_login_event(?int $userId, ?string $emailAttempted, string $result, ?string $reason = null): void {
-  try {
-    db()->prepare(
-      'INSERT INTO login_events (user_id, result, reason, ip_address, user_agent)
-       VALUES (:user_id, :email_attempted, :result, :reason, :ip, :ua)'
-    )->execute([
-      ':user_id' => $userId,
-      ':result' => $result, // success | failed_password | failed_mfa | locked
-      ':reason' => $reason,
-      ':ip' => client_ip(),
-      ':ua' => user_agent(),
-    ]);
-  } catch (Throwable $e) {
-    // Fail-open: never break login flow if logging table/insert fails.
-  }
-}
+// need to update because I changed the table
+
+// function log_login_event(?int $userId, ?string $emailAttempted, string $result, ?string $reason = null): void {
+//   try {
+//     db()->prepare(
+//       'INSERT INTO login_events (user_id, result, reason, ip_address, user_agent)
+//        VALUES (:user_id, :email_attempted, :result, :reason, :ip, :ua)'
+//     )->execute([
+//       ':user_id' => $userId,
+//       ':result' => $result, // success | failed_password | failed_mfa | locked
+//       ':reason' => $reason,
+//       ':ip' => client_ip(),
+//       ':ua' => user_agent(),
+//     ]);
+//   } catch (Throwable $e) {
+//     // Fail-open: never break login flow if logging table/insert fails.
+//   }
+// }
 
 
 /**
@@ -85,31 +87,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       $error = 'Please enter a valid email.';
       log_login_event(null, $email, 'failed_password', 'invalid_email_format');
     } else {
-      $stmt = db()->prepare('SELECT id, email, password_hash, role, is_active FROM users WHERE email = :email LIMIT 1');
+      $stmt = db()->prepare('SELECT user_id, email, password_hash, role, is_active FROM users WHERE email = :email LIMIT 1');
       $stmt->execute([':email' => $email]);
       $user = $stmt->fetch();
 
       if (!$user || (int)$user['is_active'] !== 1 || !password_verify($password, (string)$user['password_hash'])) {
         $error = 'Invalid email or password.';
-        log_login_event(isset($user['id']) ? (int)$user['id'] : null, $email, 'failed_password', 'bad_credentials_or_inactive');
+        log_login_event(isset($user['user_id']) ? (int)$user['user_id'] : null, $email, 'failed_password', 'bad_credentials_or_inactive');
       } else {
         // ---- Future Duo hook point ----
         // If you add Duo challenge later, place it HERE before finalizing session.
         // Example:
-        // if (duo_required_for_user((int)$user['id'])) { redirect to duo challenge; exit; }
+        // if (duo_required_for_user((int)$user['user_id'])) { redirect to duo challenge; exit; }
 
         session_regenerate_id(true);
 
-        $_SESSION['user_id'] = (int)$user['id'];
+        $_SESSION['user_id'] = (int)$user['user_id'];
         $_SESSION['user_email'] = (string)$user['email'];
         $_SESSION['user_role'] = (string)$user['role'];
         $_SESSION['created_at'] = time();
         $_SESSION['last_activity'] = time();
 
-        db()->prepare('UPDATE users SET last_login = NOW() WHERE id = :id')->execute([':id' => (int)$user['id']]);
+        db()->prepare('UPDATE users SET last_login = NOW() WHERE user_id = :user_id')->execute([':user_id' => (int)$user['user_id']]);
 
-        log_login_event((int)$user['id'], (string)$user['email'], 'success', null);
-        log_audit((int)$user['id'], 'login_success', 'user', (string)$user['id'], [
+        log_login_event((int)$user['user_id'], (string)$user['email'], 'success', null);
+        log_audit((int)$user['user_id'], 'login_success', 'user', (string)$user['user_id'], [
           'role' => (string)$user['role']
         ]);
 

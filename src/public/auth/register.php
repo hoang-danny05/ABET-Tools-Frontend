@@ -1,5 +1,4 @@
 <?php
-#require_once $_ENV['ABET_PRIVATE_DIR'] . '/config/config.php';
 require_once $_ENV['ABET_PRIVATE_DIR'] . '/lib/db.php';
 require_once $_ENV['ABET_PRIVATE_DIR'] . '/lib/auth.php';
 
@@ -69,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $pdo = db();
 
     // Check if email exists
-    $stmt = $pdo->prepare('SELECT id FROM users WHERE email = ? LIMIT 1');
+    $stmt = $pdo->prepare('SELECT user_id FROM users WHERE email = ? LIMIT 1');
     $stmt->execute([$email]);
 
     if ($stmt->fetch()) {
