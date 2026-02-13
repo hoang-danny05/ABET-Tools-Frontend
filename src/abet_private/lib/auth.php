@@ -81,7 +81,6 @@ function enforce_session_timeouts(): void {
   if (($now - (int)$_SESSION['created_at']) > $absolute) {
     logout('/login?reason=timeout');
   }
-
   // Idle timeout
   if (($now - (int)$_SESSION['last_activity']) > $idle) {
     logout('/login?reason=idle');
@@ -115,9 +114,9 @@ function require_role(string $role): void {
 }
 
 function logout(string $redirectTo = '/login'): void {
-  start_session();
 
   $_SESSION = array();
+  session_destroy();
 
   if (ini_get('session.use_cookies')) {
     $params = session_get_cookie_params();
@@ -132,7 +131,7 @@ function logout(string $redirectTo = '/login'): void {
     );
   }
 
-  session_destroy();
+  start_session();
 
   safe_redirect($redirectTo);
 }
