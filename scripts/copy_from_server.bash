@@ -8,8 +8,16 @@ read -r -p "Are you sure you want to continue? [y/N]: " response
 case "$response" in
     [yY][eE][sS]|[yY])
         echo "Proceeding..."
-        scp -i .ssh/abet -r osburn@72.167.148.35:/home/osburn/public_html/abet.asucapstonetools.com ..
-        scp -i .ssh/abet -r osburn@72.167.148.35:/home/osburn/abet_private ..
+
+        # COPY DEPLOYED FILES FROM SERVER TO LOCAL MACHINE
+        scp -r osburn@72.167.148.35:/home/osburn/public_html/abet.asucapstonetools.com ../src/public
+
+        scp -r osburn@72.167.148.35:/home/osburn/abet_private ../src/abet_private
+        
+        # COPY DATABASE CONFIG FILES
+        scp -r osburn@72.167.148.35:/etc/apache2/config.d ../docker/apache2
+        
+        
         ;;
     *)
         echo "Aborted. Not copying from server."

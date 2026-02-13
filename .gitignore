@@ -13,3 +13,4 @@ mysql_data
 
 *.key
 *.crt
+INSTALL.sh
