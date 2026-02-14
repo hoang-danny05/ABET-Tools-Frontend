@@ -4,14 +4,17 @@ This is a version control tracker of the PHP Backend that controls how the diffe
 
 It is not currently setup to be locally runnable, only on osburn's server. 
 
-## Backing up the codebase 
+## Backing up the codebase
 
-This requires the ABET private key to be setup. 
+This requires the ABET private key to be setup
+
+**NOTE:** `copy_from_server.bash` does not currently sync everything up, as we have not fully adopted this method. abet_private is copied into `src/abet_private/abet_private` and abet.asucapstonetools.com is copied into `src/public/abet.asucapstonetools.com`
+
 1) git clone this repo.
 2) cd into `scripts/` and run `copy_from_server.bash`
     - I hardcoded the server IP, so we might need to change this if the step doesn't work
     - The script also assumes you're in `scripts/`, else it will copy the files to who knows where.
-4) git add, commit, and push your changes
+3) git add, commit, and push your changes
 
 ## Running the application locally
 
