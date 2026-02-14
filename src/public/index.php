@@ -421,7 +421,7 @@ $asu_id = $parts[0] ?? 'user';
             <div class="card-body">
                 <div class="card-body-inner">
                     <p>Manage course performance data efficiently with a clear, structured view of assignments and outcomes-related grading. Ensure records are complete and ready for review when needed.</p>
-                    <a href="#" class="action-link">Launch Tool 1 &rarr;</a>
+                    <a href="https://abet.asucapstonetools.com/AssignmentsGrades/index.php" class="action-link">Launch Tool 1 &rarr;</a>
                 </div>
             </div>
         </div>
@@ -447,7 +447,7 @@ $asu_id = $parts[0] ?? 'user';
             <div class="card-body">
                 <div class="card-body-inner">
                     <p>Generate a comprehensive ABET report that summarizes assessment results and supporting materials. Present information clearly to streamline internal review and accreditation preparation.</p>
-                    <a href="#" class="action-link">Launch Tool 3 &rarr;</a>
+                    <a href="https://abet.asucapstonetools.com/report-generator/index.php" class="action-link">Launch Tool 3 &rarr;</a>
                 </div>
             </div>
         </div>

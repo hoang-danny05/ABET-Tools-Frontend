@@ -14,3 +14,7 @@ mysql_data
 *.key
 *.crt
 INSTALL.sh
+
+## sync directories
+abet.asucapstonetools.com
+abet_private/abet_private
