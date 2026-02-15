@@ -29,12 +29,13 @@ Once that's done, you can run these commands to view the application
 
 You should follow official Docker installation. You got this.
 
-### Linux 
+### Linux
 
 [Docker engine](https://docs.docker.com/engine/install)
+
 [Docker compose](https://docs.docker.com/compose/install)
 
-### Windows 
+### Windows
 
 [Docker desktop](https://docs.docker.com/desktop/setup/install/windows-install/) (Installs both!)
 
@@ -52,6 +53,7 @@ Using the CPanel
 Note: you can automate step 4 and 5 if you create your own private key and put these commands in your `~/.bashrc`
 
 ## Important Files
+
 everything in `docker/` refers to the current containers that we have in the application. If we want more, we should add a folder with the container name, and a `docker-compose.yaml`.
 
 **app container**: a php-apache container that runs both php and apache. Apache config is in `docker/apache2`, but you need to copy this from the server.
@@ -61,9 +63,11 @@ everything in `docker/` refers to the current containers that we have in the app
 if we want to integrate the python file, we can easily create a fastapi container in the docker-compose.
 
 ## Updating mysql tables
+
 Updating mysql tables requires a reset of the `./docker/mysql/mysql_data` directory. To update the mysql tables, I usually run:
 
 within the `docker/` folder
+
 ```bash
 docker compose down     # or docker-compse if you have that
 rm -rf ./mysql/mysql_data        # reset mysql_data so that tables can be updated.

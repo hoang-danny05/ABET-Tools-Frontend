@@ -1,2 +1,3 @@
 #!/bin/bash
-ssh osburn@72.167.148.35
+HOSTNAME=35.148.167.72.host.secureserver.net
+ssh "osburn@${HOSTNAME}"

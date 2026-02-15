@@ -8,8 +8,9 @@ read -r -p "Are you sure you want to continue? [y/N]: " response
 case "$response" in
     [yY][eE][sS]|[yY])
         echo "Proceeding..."
-        scp -i .ssh/abet -r .. osburn@72.167.148.35:/home/osburn/public_html/abet.asucapstonetools.com
-        scp -i .ssh/abet -r .. osburn@72.167.148.35:/home/osburn/abet_private
+        HOSTNAME=35.148.167.72.host.secureserver.net
+        scp -r ../src/public osburn@${HOSTNAME}:/home/osburn/public_html/abet.asucapstonetools.com
+        scp -r ../src/abet_private osburn@${HOSTNAME}:/home/osburn/abet_private
         ;;
     *)
         echo "Aborted. Not copying from server."

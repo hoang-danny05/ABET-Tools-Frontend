@@ -10,7 +10,7 @@ case "$response" in
         echo "Proceeding..."
 
         # COPY DATABASE CONFIG FILES
-        scp -r osburn@72.167.148.35:/etc/apache2/config.d ../docker/apache2
+        scp -r osburn@${HOSTNAME}:/etc/apache2/config.d ../docker/apache2
         
         
         ;;

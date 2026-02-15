@@ -9,13 +9,15 @@ case "$response" in
     [yY][eE][sS]|[yY])
         echo "Proceeding..."
 
-        # COPY DEPLOYED FILES FROM SERVER TO LOCAL MACHINE
-        scp -r osburn@72.167.148.35:/home/osburn/public_html/abet.asucapstonetools.com ../src/public
+        HOSTNAME=35.148.167.72.host.secureserver.net
 
-        scp -r osburn@72.167.148.35:/home/osburn/abet_private ../src/abet_private
+        # COPY DEPLOYED FILES FROM SERVER TO LOCAL MACHINE
+        scp -r osburn@${HOSTNAME}:/home/osburn/public_html/abet.asucapstonetools.com/* ../src/public/server_clone
+
+        scp -r osburn@${HOSTNAME}:/home/osburn/abet_private/* ../src/abet_private/server_clone
         
         # COPY DATABASE CONFIG FILES
-        scp -r osburn@72.167.148.35:/etc/apache2/config.d ../docker/apache2
+        # scp -r osburn@${HOSTNAME}:/etc/apache2/config.d/* ../docker/app/apache2/server_clone
         
         
         ;;
