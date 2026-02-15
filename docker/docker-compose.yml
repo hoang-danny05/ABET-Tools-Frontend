@@ -1,4 +1,10 @@
 services:
+  ###################################################
+  # the PHP/Apache container serves the web application and handles PHP processing. 
+  # The container is configured with environment variables for database connection. 
+  # It maps port 8080 on the host to port 80 in the container. 
+  # The application code is mounted as a volume to allow for easy development and updates.
+  ###################################################
   php_apache:
     build: 
       context: ./app/
@@ -23,6 +29,10 @@ services:
     depends_on:
       - mysql
 
+  ###################################################
+  # the MySQL container provides the database service for the application.
+  # It is configured with environment variables (in ./.env) for the root password, database name, user, and password.
+  ###################################################
   mysql:
     build: 
       context: ./mysql/
@@ -40,7 +50,51 @@ services:
     networks:
       - app_network
 
+  ###################################################
+  # phpMyAdmin for a web-based interface for managing the MySQL database.
+  ###################################################
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      PMA_ARBITRARY: 1
+      PMA_HOST: mysql
+      PMA_USER: ${MYSQL_USER}
+      PMA_PASSWORD: ${MYSQL_PASS}
+    restart: always
+    ports:
+      - "8081:80"
+    networks:
+      - app_network
+    depends_on:
+      - mysql
+
+  
+  ###################################################
+  # the report generation container that hosts the fastapi backend
+  # accessed by the php_apache container to generate reports.
+  # we may optinally give it environment variables for database connections if needed in the future.
+  ###################################################
+  # reportgen:
+  #   build: 
+  #     context: ./reportgen/
+  #     dockerfile: Dockerfile
+  #   container_name: reportgen
+  #   environment:
+  #     - OPENAI_API_KEY=${OPENAI_API_KEY}
+  #   volumes:
+  #     - ../src/reportgen:/usr/src/app
+  #   networks:
+  #     - app_network
+  #   depends_on:
+  #     - mysql
+
+
+  ###################################################
+  # the default network that allows the containers to communicate with each other.
+  # just in case we want to change network settings in the future, we define it explicitly here.
+  ###################################################
 networks:
   app_network:
-    name: abet_tools_network
+    name: app_network
     driver: bridge

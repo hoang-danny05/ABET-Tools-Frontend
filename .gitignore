@@ -1,20 +1,26 @@
+# environment data, keys, and secrets
 .ssh
 .env
-__pycache__
-*.pyc
+venv
+.venv
 config.php
-
-## php composer files
-composer.phar
-vendor
-
-apache2
-mysql_data
-
 *.key
 *.crt
+
+# local data that should not be tracked
+__pycache__
+*.pyc
+mysql_data
+generated_pdfs
+logs
+
+
+## stuff that I created randomly and don't want to track
+composer.phar
+vendor
 INSTALL.sh
+apache2 
 
 ## sync directories
 abet.asucapstonetools.com
-abet_private/abet_private
+server_clone
