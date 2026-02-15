@@ -1,47 +1,46 @@
 # The Frontend-Backend interface for ABET-Tools
 
-This is a version control tracker of the PHP Backend that controls how the different components interface with the browser.. The job of this repository is to simply track the state of the Backend and how it interfaces with the frontend. 
+This is our application, which I've containerized for easier development. Included are containers for:
 
-It is not currently setup to be locally runnable, only on osburn's server. 
+- The PHP/Apache server
+- The MySQL database
+- PHPMyAdmin for the database
+- and the report generation API (as soon as the API is created)
 
-## Backing up the codebase
+I do not currently have a deployment command, but I aim to create a script to be able to deploy the server by next week.
 
-This requires the ABET private key to be setup
+## Getting Started
 
-**NOTE:** `copy_from_server.bash` does not currently sync everything up, as we have not fully adopted this method. abet_private is copied into `src/abet_private/abet_private` and abet.asucapstonetools.com is copied into `src/public/abet.asucapstonetools.com`
+This requires:
 
-1) git clone this repo.
-2) cd into `scripts/` and run `copy_from_server.bash`
-    - I hardcoded the server IP, so we might need to change this if the step doesn't work
-    - The script also assumes you're in `scripts/`, else it will copy the files to who knows where.
-3) git add, commit, and push your changes
+- **Docker engine** AND **docker compose** to be installed. [Docker Install](#docker-installs) 
+- **CPanel** This also requires you to have the cPanel server private keys added. [ABET Private Key](#abet-private-key-setup)
+- A bash command line. (a given)
 
-## Running the application locally
-
-This requires docker engine AND docker compose to be installed. Please refer to the official Docker documentation. This also requires you to have the cPanel server private keys created. It also requires that you have basic tools like a bash command line and git.
-
-[Docker Install](#docker-installs)
-[Abet Private Key](#abet-private-key-setup)
+Once that's done, you can run these commands to view the application
 
 1) cd into `scripts/` and run `bash sync_private_files.bash`
-2) cd into `docker/` and create a `.env` file. `env.demo` is a format file for .env, you should follow that
-3) cd into `docker/` and run `docker compose up`
-4) you can visit [https://localhost:8080](https://localhost:8080)
+2) cd into `docker/` and create a `.env` file. `env.demo` is a format file that you can use ONLY FOR DEVELOPMENT
+3) within `docker/`, run `docker compose up`
+4) you can visit [localhost port 8080](https://localhost:8080) to see the interface
+5) you can visit [localhost port 8081](https://localhost:8081) to use phpMyAdmin
 
-## Docker Installs
+### Docker Installs
 
-### Linux Docker Install
+You should follow official Docker installation. You got this.
+
+### Linux 
 
 [Docker engine](https://docs.docker.com/engine/install)
 [Docker compose](https://docs.docker.com/compose/install)
 
-### Windows Docker Install
+### Windows 
 
 [Docker desktop](https://docs.docker.com/desktop/setup/install/windows-install/) (Installs both!)
 
 ## ABET private key setup
 
-from a bash terminal
+Using the CPanel
 
 1) download abet ssh key from the CPanel
 2) Set correct permissions: `chmod 600 abet`
@@ -70,3 +69,17 @@ docker compose down     # or docker-compse if you have that
 rm -rf ./mysql/mysql_data        # reset mysql_data so that tables can be updated.
 docker compose up --build
 ```
+
+## Pulling from the server
+
+**NOTE:** `copy_from_server.bash` does not currently sync everything up, as we have not fully adopted this method. abet_private is copied into `src/abet_private/abet_private` and abet.asucapstonetools.com is copied into `src/public/abet.asucapstonetools.com`
+
+1) git clone this repo.
+2) cd into `scripts/` and run `copy_from_server.bash`
+    - I hardcoded the server IP, so we might need to change this if the step doesn't work
+    - The script also assumes you're in `scripts/`, else it will copy the files to who knows where.
+3) git add, commit, and push your changes
+
+## More information
+
+More information is found [in this master document.](https://docs.google.com/document/d/1mHOwIYyIZtg7FO8jtxTz9lPIuB3W9JVeVAR240YsTQA/edit?tab=t.88j2hx3zuwbr)
